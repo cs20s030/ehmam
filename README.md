@@ -11,9 +11,9 @@ git clone https://github.com/facebookresearch/fairseq
 cd fairseq
 pip install --editable ./
 
-# plug in for EH-MAM
-replace all the files in examples/data2vec with EHMAM
-To use easy-to-hard masking add **compute_mask_indices_ema_loss** function in data_utils.py file present in the original fairseq repo. You can find the implementation of **compute_mask_indices_ema_loss** in ehmam/data_utils.py 
+# plug-in for EH-MAM
+Replace all the files in examples/data2vec with EHMAM
+To use easy-to-hard masking add compute_mask_indices_ema_loss function in data_utils.py file present in the original fairseq repo. You can find the implementation of compute_mask_indices_ema_loss in ehmam/data_utils.py 
 ```
 
 - Data preparation:
